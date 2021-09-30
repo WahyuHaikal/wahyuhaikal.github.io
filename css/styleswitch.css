@@ -60,6 +60,7 @@
 	cursor: pointer;
 	border-radius: 5px 0 0 5px;
 	border:1px solid black; 
+	z-index: 5;
 }
 .style-switch .toggle-style-switch .bi{
 	font-size: 20px;
