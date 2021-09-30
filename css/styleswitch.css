@@ -1,0 +1,67 @@
+
+
+.style-switch{
+	position: fixed;
+	top: 20px;
+	right: 0;
+	z-index: 10;
+	background-color: white;
+	padding: 15px;
+	border: 1px solid black;
+	border-right: none;
+	border-radius: 0 0 0 5px;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.style-switch.open{
+	-webkit-transform: translateX(0%);
+	transform: translateX(0%);
+}
+
+.style-switch h5{
+	font-size: 16px;
+	color: black;
+	margin-top:0;
+	margin-bottom: 8px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+}
+.style-switch ul{
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-bottom: 5px;
+	list-style: none;
+}
+.style-switch ul li{
+	display: inline-block;
+}
+.style-switch ul li a{
+	height: 30px;
+	width: 30px;
+	display: block;
+	border-radius: 50%;
+	cursor: pointer;
+	text-decoration: none;
+	margin-right: 2px;
+}
+
+.style-switch .toggle-style-switch{
+	position: absolute;
+	height: 45px;
+	width: 45px;
+	background-color: white;
+	left: -45px;
+	top: -1px;
+	border: 1px solid white;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 5px 0 0 5px;
+	border:1px solid black; 
+}
+.style-switch .toggle-style-switch .bi{
+	font-size: 20px;
+	line-height: 43px;
+}
