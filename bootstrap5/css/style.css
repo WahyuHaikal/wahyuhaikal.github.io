@@ -1,0 +1,37 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;700&family=Rubik:wght@400;500;700;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  background-color: black;
+  padding-top: 5rem;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  background-color: black;
+}
+.jumbotron .container .row .col-md-5 span:hover {
+  transition: ease 0.5s;
+  color: rgb(51, 157, 98);
+}
+.jumbotron .container .row .col-md-5 .fs-2 a {
+  color: rgb(255, 255, 255);
+}
+.jumbotron .container .row .col-md-5 .fs-2 a:hover {
+  transition: ease 0.5s;
+  color: rgb(51, 157, 98);
+}
+
+.jumbotron .container h1,
+p {
+  color: rgb(255, 255, 255);
+}
+
+#about .kosong {
+  width: auto;
+  height: 104px;
+  background-color: rgb(0, 0, 0);
+}
