@@ -350,8 +350,8 @@ input,textarea,select{
 text-align: center;
 }
 .home .intro img{
-	height: 375px;
-	width: 300px;
+	height: 350px;
+	width: 350px;
 	border-radius: 50%;
 	display: inline-block;
 	left: 200px;
